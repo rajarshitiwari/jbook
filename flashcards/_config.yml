@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
+title: Landing page for QPCC's flashcards and quizes
+author: ICHEC team
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -30,3 +30,12 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+html:
+  extra_footer: "Copyright@2022"
+
+# remove jupyterbooks copyright info
+sphinx:
+  config:
+    html_show_copyright: false
+    body_min_width: '72%'

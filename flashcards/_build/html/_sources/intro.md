@@ -1,29 +1,20 @@
-# Welcome to your Jupyter Book
+# QPCC's collection of Flashcards and Quizes
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
-
-Check out the content pages bundled with this sample book to see more.
+This is the landing page for the QPCC's collection of flashcards and quizes used as part of the teaching material.
 
 ```{tableofcontents}
 ```
 
 
-:::{note}
-Here is a note!
-:::
 
-And here is a code block:
+Following is the list of flashcards -
 
-```python
-import numpy as np
-import tensorflow as tf
-```
-
-Math in running text : $e = mc^2$ . Math as standalone equations -
-
-$$
-I = \int_0^\infty e^{-x^2}dx
-$$
+|Lecture | Cards | Quiz |
+|---|---|---|
+| 1 | [Cards 1](./material/cards-1.ipynb) ||
+| 2 | [Cards 2](./material/cards-2.ipynb) ||
+| 3 | [Cards 3](./material/cards-3.ipynb) ||
+| 4 | [Cards 4](./material/cards-4.ipynb) ||
+| 5 | [Cards 5](./material/cards-5.ipynb) ||
+| 6 | [Cards 6](./material/cards-6.ipynb) ||
+| 7 | [Cards 7](./material/cards-7.ipynb) ||
