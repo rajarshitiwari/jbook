@@ -23,7 +23,7 @@ display_flashcards('./cards_5.json')
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mAttributeError[0m                            Traceback (most recent call last)
-[0;32m/tmp/ipykernel_1905/2445300427.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_1910/2445300427.py[0m in [0;36m<module>[0;34m[0m
 [1;32m      1[0m [0;32mfrom[0m [0mjupytercards[0m [0;32mimport[0m [0mdisplay_flashcards[0m[0;34m[0m[0;34m[0m[0m
 [0;32m----> 2[0;31m [0mdisplay_flashcards[0m[0;34m([0m[0;34m'./cards_5.json'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [0m
