@@ -21,7 +21,7 @@
     },
     {
         "front": "If real NISQ devices are already available for free access, then do we need software-based simulators of quantum computers?",
-        "back": "Currently available NISQ devices are extremely small and error-prone. Thus, programming them requires expertise in optimisation and customisation that is device-/vendor-specific. Software-based simulators on the other hand, allow for easier experimentation and skills development before using real hardware. Thus, beginning the learning and development process from software simulators before moving to NISQ hardware devices has proven helpful in the current scenario."
+        "back": "Given the limitations of small and error-prone NISQ devices, software-based quantum simulators offer a valuable alternative for easier experimentation and skills development before transitioning to real hardware. Starting with simulators facilitates learning and development, providing a more accessible entry point compared to directly working with NISQ hardware."
     },
     {
         "front": "How or where can you start your engagement with quantum computing?",
