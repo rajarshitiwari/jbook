@@ -6,7 +6,7 @@
     },
     {
         "front": "Discuss the differences in the features of Classical and Quantum Computing",
-        "back": "Differences : No irreversible gates in Quantum Computing while classical gates can be reversible, Copying of states is not possible with Qubits but it's possible to copy bits in Classical Computing ,Quantum bits exhibit Superposition/ Entanglement which are not exhibited by Classical Bits, Quantum Measurements are probabilstic whereas Classical results are deterministic"            
+        "back": "Differences : No irreversible gates in Quantum Computing while classical gates can be reversible, Copying of states is not possible with Qubits but it's possible to copy bits in Classical Computing, Quantum bits exhibit Superposition/ Entanglement which are not exhibited by Classical Bits, Quantum Measurements are probabilstic whereas Classical results are deterministic"            
         
     },
     {
