@@ -17,7 +17,7 @@
     },
     {
         "front": "Do quantum computers always need to be refridgerated and operated at extremely low temperatures?",
-        "back": "No all quantum computer realisation methods require refridgeration and operation at extremely low temperatures. For instance, the superconducting approach requires refridgeration, while photonics or diamond-based approaches may be operated at room temperature."
+        "back": "Not all quantum computer realisation methods require refridgeration and operation at extremely low temperatures. For instance, the superconducting approach requires refridgeration, while photonics or diamond-based approaches may be operated at room temperature."
     },
     {
         "front": "If real NISQ devices are already available for free access, then do we need software-based simulators of quantum computers?",
