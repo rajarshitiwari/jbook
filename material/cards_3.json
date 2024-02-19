@@ -16,7 +16,7 @@
         
     },
     {
-        "front": "What are the implications of *no-cloning theorem* on practical quantum computing",
+        "front": "What are the implications of no-cloning theorem on practical quantum computing",
         "back": "Unlike classical bits, one can not copy qubits. This makes the tackling of errors and noise even more challenging."
         
     }
