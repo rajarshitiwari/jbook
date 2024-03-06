@@ -16,7 +16,7 @@
         
     },
     {
-        "front": "Descibe your experince in preparing quantum circuits in IBM Composer and coding them in different programming languages.",
+        "front": "Describe your experince in preparing quantum circuits in IBM Composer and coding them in IBM Qiskit.",
         "back": "Open discussion."
     }
 ]
