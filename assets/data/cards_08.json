@@ -1,0 +1,30 @@
+[
+  {
+    "front": "What are the three main stages of Grover's search?",
+    "back": "Create an equal superposition (by applying Hadamard gates to all qubits), apply Grover's operator a number of times and then measure the qubits."
+  },
+  {
+    "front": "What result should we expect after a successful Grover search?",
+    "back": "When the qubits are measured, the marked solution should appear much more often than the other possible results."
+  },
+  {
+    "front": "What practical limitation is hidden when Grover's oracle is treated as a black box?",
+    "back": "In reality constructing an oracle for a large database would be extremely cumbersome."
+  },
+  {
+    "front": "What is a classical random walk?",
+    "back": "It is a process in which a walker repeatedly chooses a random direction, such as moving one step left or one step right."
+  },
+  {
+    "front": "What happens when paths interfere in a quantum walk?",
+    "back": "Some paths reinforce each other and become more likely, while other paths cancel and become less likely."
+  },
+  {
+    "front": "Besides not always having a symmetric distribution, what is the main difference between quantum and classical walks?",
+    "back": "Quantum walks can spread out faster than classical random walks, which can lead to faster algorithms for certain problems."
+  },
+  {
+    "front": "What do Grover's algorithm and quantum random walks have in common?",
+    "back": "Both have a quadratic speedup over classical algorithms for certain problems. Also similar workflows: prepare initial state, apply unitary a number of times, measure the qubits."
+  }
+]

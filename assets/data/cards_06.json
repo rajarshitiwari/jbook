@@ -1,0 +1,26 @@
+[
+  {
+    "front": "Which four broad families are the quantum algorithms introduced in this course organised into?",
+    "back": "Toy problems, reusable building blocks, foundational algorithms, and NISQ algorithms. Deutsch–Jozsa and Simon illustrate toy problems; QFT and QPE are building blocks; Shor, Grover, and quantum walks are foundational; VQE and QAOA are NISQ examples."
+  },
+  {
+    "front": "Why are QFT and QPE described as building blocks rather than complete applications?",
+    "back": "They are reusable subroutines embedded inside larger algorithms. For example, phase estimation supports order finding in Shor's algorithm and is also connected to eigenvalue problems in quantum simulation."
+  },
+  {
+    "front": "For a general basis input $|j\\rangle$, where is the value of $j$ stored after the QFT?",
+    "back": "It is stored in the relative phases $e^{2\\pi i jk/N}$ of the output amplitudes, not in their magnitudes. Different values of $j$ therefore produce different phase patterns even when their measurement probabilities are identical."
+  },
+  {
+    "front": "Why is global phase irrelevant but relative phase important in a QFT output?",
+    "back": "Multiplying the entire state by one phase factor does not change any physical prediction. Phase differences between basis-state amplitudes do affect later interference, allowing a subsequent circuit such as an inverse QFT to expose the encoded information."
+  },
+  {
+    "front": "What happens in QPE when the phase cannot be represented exactly with the available counting qubits?",
+    "back": "The output is not deterministic. Measurement probability is concentrated on the grid points nearest the true phase, and repeated runs reveal a distribution from which the best finite-precision estimate can be selected."
+  },
+  {
+    "front": "What does QPE return if its target register is a superposition of eigenstates?",
+    "back": "The circuit correlates each eigenstate component with its own phase estimate. Measuring the counting register samples one eigenphase, with probability determined by the squared magnitude of the corresponding eigenstate component."
+  }
+]

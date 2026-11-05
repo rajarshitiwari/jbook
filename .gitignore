@@ -1,3 +1,8 @@
+# jekyll stuff
+Gemfile.lock
+_site/
+rendered-exercises/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

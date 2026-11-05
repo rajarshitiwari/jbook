@@ -1,0 +1,30 @@
+[
+    {
+        "front": "Discuss the main sources of noise in a quantum system.",
+        "back": "The main sources include decoherence caused by unwanted interactions with the environment, gate errors caused by imperfect control, readout errors, crosstalk between qubits and errors in preparing the initial state."
+    },
+    {
+        "front": "Discuss how quantum error-correction schemes operate.",
+        "back": "Quantum error correction introduces redundancy by encoding one logical qubit across multiple physical qubits. This allows errors to be detected and corrected without directly measuring and destroying the encoded quantum information."
+    },
+    {
+        "front": "Discuss software-based error-mitigation schemes.",
+        "back": "Error mitigation uses classical post-processing techniques to reduce the effect of noise on the final measurement results. Unlike quantum error correction, it does not encode a logical qubit across multiple physical qubits."
+    },
+    {
+        "front": "Why is temperature control important for superconducting qubits?",
+        "back": "Superconducting qubits operate at approximately 10–20 mK to reduce thermal excitations that can disturb their quantum states. This cooling helps preserve coherence and improve operation fidelity; other platforms, such as trapped ions and photonics, do not require a dilution refrigerator."
+    },
+    {
+        "front": "What are the similarities and differences between gate-based and analogue quantum computers?",
+        "back": "Both use controlled quantum systems to perform computations. Gate-based quantum computers apply sequences of discrete quantum gates and are designed for general-purpose quantum algorithms. Analogue quantum computers evolve continuously under a tunable Hamiltonian and are specialised for particular simulations or optimization problems."
+    },
+    {
+        "front": "Compare the main characteristics of superconducting, trapped-ion and photonic qubits.",
+        "back": "Superconducting qubits have fast gates but shorter coherence times and require cryogenic cooling. Trapped-ion qubits have long coherence times and all-to-all connectivity within a trap, but slower gates. Photonic qubits can operate at room temperature and have very low decoherence, but operations can be probabilistic and photon loss is a major challenge."
+    },
+    {
+        "front": "Discuss quantum annealers",
+        "back": "Particularly good for combinatorial problems. The mathematical formulation of the problem should be suitable to be mapped as a graph problem in the hardware architecture. The system evolves slowly to reach the minimum-energy solution."
+    }
+]
